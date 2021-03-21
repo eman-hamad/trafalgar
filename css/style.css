@@ -1,0 +1,552 @@
+.root {
+    font-family: 'roboto';
+    --primarycolor:#7ca3fe;
+    --backgroundcolor:#F9FAFC;
+    --font_color:#8F8F8B;
+    --fontcolor:#9D9AA5;
+    --firstcolor:#8490FF;
+    --endcolor:#5EBEF8;
+    --sectioncolor:#77A1FE;
+    --circleborder:#E2E5FF;
+    --circlecolor:#EDEFFF;
+    --sponsorcolor:#71A8FD;
+    --aboutcolor:#04091E;
+    --buttoncolor:#458FF6;
+   
+
+    
+  }
+
+  *{
+
+    font-family: Mulish;
+    
+  }
+  .body {
+  margin:0;
+  padding:0;
+
+  box-sizing: border-box;
+  
+  }
+ 
+
+  .banner{
+
+    display:flex;
+   
+    width: 80%;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    margin: 19px auto;
+    font-weight:normal;
+    font-size:18px;
+   
+  }
+  .img{
+
+
+    display:flex;
+    margin-right:310px;
+    margin-left: 15px;
+   
+  
+  }
+
+ 
+  .home ,.find,.app,.test,.about{
+    
+    margin-right:25px;
+    color:#9D9AA5;
+  }
+
+  .home:hover ,.about:hover,.app:hover,.test:hover,.find:hover{
+    color:black;
+    
+  }
+
+  .container{
+   
+    display: flex;
+    margin: auto;
+    margin-top: 30px;
+    width: 80%;
+    align-items:baseline;
+    justify-content: space-between;
+    align-items:center;
+    margin-bottom: 110px;
+   
+  }
+   .header{
+    
+    align-items:center;
+    
+    
+   
+  }
+  .start{
+    justify-content: space-between;
+    align-items:center;
+    font-weight:700;
+    font-size: 48px;
+    flex-wrap: wrap;
+    margin-bottom: 18px;
+    Line-height :56px;
+  }
+  .middle{
+  
+    justify-content: space-between;
+    align-items:center;
+    font-weight:300;
+    width:70%;
+    font-size:21px;
+    margin-bottom:57px;
+    color: #9D9AA5;
+  
+  }
+  
+  
+  .btn{
+     display: flexbox;
+     
+    justify-content:center;
+    align-items:center;
+    font-weight:700;
+    font-size:18px;
+    border-radius: 45px;
+    border: 1px solid transparent;
+    padding: 13px 35px;
+   color:white;
+   text-overflow:clip;
+   word-wrap:break-word;
+   text-align:left;
+    background-color: #458FF6;
+  }
+   .img_head{
+     
+   object-position: right;
+   Width :47%;
+   justify-content: center;
+     
+  
+   }
+
+   .services_content,.article_content{
+
+    
+    font-weight: 700;
+    font-size: 36px;
+    margin-bottom: 30px;
+     text-align: center;
+     display:block;
+    
+   }
+
+   .services_description {
+   
+  width:61%;
+  margin:auto;
+  align-items: center;
+    color: #9D9AA5;
+    font-weight: 300;
+    font-size: 18px;
+    margin-bottom: 50px;
+    text-align: center;
+
+   
+   }
+
+
+   #grid_section {
+     padding-left: 5px;
+    background-color: #F9FAFC;
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+   margin: auto;
+   align-items: center;
+   width: 70%;
+   text-align: center;
+   margin-bottom:40px;
+   
+  }
+
+
+  #article_description{
+    background-color: #F9FAFC;
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+  justify-items:center ;
+   text-align: center;
+   width: auto;
+   margin: 0;
+   margin-bottom:70px;
+   
+   
+  }
+
+ .first_grid,.second_grid,.third_grid,.fourth_grid,.fifth_grid,.sixth_grid{
+  text-align: left;
+  width:30%;
+  
+
+ }
+ .first_grid,.third_grid,.fourth_grid{
+  padding-left: 25px;
+  margin-left: 25px;
+
+
+ }
+
+ 
+
+ .disease_grid,.medecine_grid,.care_grid{
+  text-align: center;
+  width:22%;
+
+
+ }
+
+ 
+
+
+ .item_fir_fir,.item_sce_fir,.item_thir_fir,.item_four_fir,.item_fif_fir,.item_six_fir
+  {
+  font-weight: 700;
+  font-size: 24px;
+ 
+ text-transform: capitalize;
+ margin-bottom: 27px;
+ }
+ 
+ 
+
+ .disease_content,
+ .care_content,.medecine_content
+  {
+  font-weight: 700;
+  font-size: 21px;
+ 
+ text-transform: capitalize;
+ margin-bottom: 27px;
+ }
+ 
+ .item_fir_sce,.item_sce_sce,.item_thir_sec,.item_four_sec,.item_fif_sec,.item_six_sec,.disease_description,
+ .care_description,.medecine_description{
+  
+
+  font-size: 16px;
+  font-weight: 300;
+  color:#9D9AA5;
+  text-transform: capitalize;
+  margin-bottom: 80px;
+ width: 80%;
+ }
+ 
+ .first_image,.second_image,.third_image,.fourth_image,.fifth_image,.sixth_image{
+  margin-bottom: 10px;
+  margin-top: 20px;
+
+ }
+
+
+ .btn_section{
+    display: flex;
+    text-align: center;
+   justify-content:center;
+   align-items:center;
+   font-weight:700;
+   font-size:18px;
+   border-radius: 45px;
+   padding: 13px 35px;
+   margin: auto;
+   border: 0.5px solid #458FF6;
+  
+  color:#458FF6;
+
+
+  
+
+ }
+
+ .btn_view{
+  display: flex;
+  text-align: center;
+ justify-content:center;
+ align-items:center;
+ font-weight:700;
+ font-size:18px;
+ border-radius: 45px;
+ padding: 13px 35px;
+ margin: auto;
+ width: 50%;
+ margin-bottom:50px;
+ border: 0.5px solid #458FF6;
+width: 83px;
+color:#458FF6;
+
+
+
+
+
+
+
+}
+
+
+ .downlod_container{
+  
+  display: flex;
+  margin: auto;
+  margin-top: 30px;
+  width: 70%;
+  align-items:baseline;
+  justify-content: space-between;
+  align-items:center;
+  margin-bottom: 210px;
+ 
+}
+
+
+.healthcare_container{
+ 
+  display: flex;
+  margin: auto;
+  margin-top: 30px;
+  width: 80%;
+  align-items:baseline;
+  justify-content: space-between;
+  align-items:center;
+  margin-bottom: 110px;
+ 
+}
+ 
+
+ .download_header{
+  
+  align-items:center;
+  margin-right: 50px;
+  
+ 
+}
+
+.healthcare_header{
+  
+  align-items:center;
+  margin-left: 110px;
+  
+  
+ 
+}
+.downlod_start,.healthcare_start,.article_content{
+  justify-content: space-between;
+  align-items:center;
+  font-weight:700;
+  font-size: 36px;
+  flex-wrap: wrap;
+  margin-bottom: 180px;
+  
+}
+.download_middle,.healthcare_middle{
+
+  justify-content: space-between;
+  align-items:center;
+  font-weight:300;
+  font-size:18px;
+  margin-bottom:57px;
+  width:60%;
+  color: #9D9AA5;
+
+}
+
+
+.btn_download,.btn_healthcare{
+   display: flexbox;
+   
+  justify-content:center;
+  align-items:center;
+  font-weight:700;
+  font-size:18px;
+  border-radius: 45px;
+  padding: 13px 35px;
+ color: #458FF6;
+ border: 0.5px solid #458FF6;
+}
+ 
+  
+ .img_download{
+   
+ object-position: right;
+ Width :47%;
+ justify-content: center;
+   
+
+ }
+
+ .img_healthcare{
+   
+  object-position: left;
+  Width :47%;
+  justify-content: center;
+    
+ 
+  }
+
+
+.footer_section{
+  background-image:url("../images/bg.png");
+  padding:80px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 260px;
+  background-repeat: no-repeat;
+  Width :1600px;
+  
+  height: fit-content;
+  background-color: #F9FAFC;
+  justify-items: center;
+
+
+ 
+    flex-wrap: wrap;
+   
+   
+   
+   
+   
+}
+
+
+
+.customer_section{
+  background-image:url("../images/Rectangle\ 13.png");
+  padding: 20px;
+  margin:auto;
+  margin-bottom: 50px;
+  align-items: center;
+  text-align: center;
+  Width :1120px;
+  height:430px;
+  background-color: #F9FAFC;
+  background-repeat: no-repeat;
+
+}
+.customer_img{
+padding-top: 90px;
+margin-left: 70px;
+padding-right: 20px;
+align-items: left;
+
+ 
+}
+.customer_description{
+
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.contain{
+  justify-content: space-between;
+  align-items:center;
+  color: white;
+  
+  font-weight:700;
+  font-size: 36px;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+  
+}
+.about_customer{
+  justify-content: space-between;
+  align-items:center;
+  
+  
+  
+  margin-top: 35px;
+  
+}
+.customer_middle{
+  
+  text-align: left;
+  align-items:left;
+}
+.first_middle{
+  justify-content: space-between;
+  align-items:center;
+  color: white;
+  padding-top: 117px;
+  font-weight:700;
+  font-size: 22px;
+  flex-wrap: wrap;
+  margin-bottom: 7px;
+  
+}
+.sceond_middle{
+  justify-content: space-between;
+  align-items:center;
+  color: white;
+  
+  font-weight:400;
+  font-size: 18px;
+  
+  flex-wrap: wrap;
+  margin-bottom: 5px;
+  
+}
+.customer_last{
+  justify-content: space-between;
+  align-items:center;
+  color: white;
+  width: 390px;
+  font-weight:400;
+  font-size: 19px;
+  padding-left: 50px;
+  padding-top: 95px;
+  padding-right: 150px;
+  flex-wrap: wrap;
+  margin-bottom: 5px;
+  
+}
+
+.logo_text{
+  justify-content: space-between;
+  align-items:center;
+  color: white;
+  padding-top: 10px;
+  font-weight:700;
+  font-size: 24px;
+  flex-wrap: wrap;
+  margin-bottom: 7px;
+  
+   
+  }
+  /* .loo_first{
+    width:20%
+  } */
+  .right_footer,.left_footer,.center_first,.center_sceond{
+   /* justify-content: space-between; */
+   text-align: left;
+   align-items: center;
+  /* width:100px; */
+/* margin: auto; */
+
+  }
+  .company_footer,.region_footer,.help_footer{
+    /* justify-content: space-between; */
+    align-items:center;
+    color: white;
+    padding-top: 10px;
+    font-weight:700;
+    font-size: 20px;
+    flex-wrap: wrap;
+    /* margin-bottom: 7px; */
+    
+     
+    }
+
+    
+      
